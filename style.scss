@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+// font-family: 'Josefin Sans', sans-serif;
+// font-family: 'Alata', sans-serif;
+
+body {
+    font-family: 'Alata', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    padding: 4rem 10rem;
+}
+
+.title {
+    font-family:'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight:300;
+    letter-spacing: 1.8px;
+    color: rgb(0, 0, 0);
+}
+
+header {
+    background:linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.424),
+        rgba(0, 0, 0, 0.424)
+      ), url('./images/desktop/image-hero.jpg') center center/cover ;
+    height: 75vh;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+
+        ul {
+            display: flex;
+            li {
+                margin-left: 2rem;
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color:hsla(0, 0%, 100%, 0.808);
+                }
+                a:hover {
+                    padding-bottom:.4rem ;
+                    border-bottom:solid 3px hsla(0, 0%, 100%, 0.808);
+                    transition: .2s ease-out;
+                }
+
+            }
+        }
+    }
+    h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 5rem;
+        text-transform: uppercase;
+        font-weight: 300;
+        width: 620px;
+        color: hsla(0, 0%, 100%, 0.918);
+        border:solid 2.5px;
+        padding: 2rem;
+
+    }
+}
+
+.VR {
+    display: flex;
+    .content {
+        position: relative;
+        top: 200px;
+        right: 150px;
+        background:hsl(0, 0%, 100%) ;
+        width: 500px;
+        height: 400px;
+        padding: 4rem;
+    } 
+    p {
+        // font-weight:600;
+        color: hsl(0, 0%, 55%);
+    }
+}
+
+.our-section {
+
+    
+    .heading {
+        // height: 10px;
+        display: flex;
+        justify-content: space-between;
+        a {
+            color:hsl(0, 0%, 100%);
+            background: black;
+            padding: 1rem 2rem;
+
+        }
+        }
+    
+    
+}
