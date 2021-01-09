@@ -100,6 +100,30 @@ header {
 
         }
         }
+    .creations {
+        // display: grid;
+        // grid-gap: 10px;
+        // grid-auto-flow: column;
+        // // grid-template-columns: 186px 186px 186px 186px;
+    }
     
+}
+
+footer {
+    display: flex;
+    background: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    justify-content: space-between;
+    .social-links {
+        display: flex;
+        list-style: none;
+        li {
+            margin-right:1rem ;
+            a {
+                color:hsl(0, 0%, 100%);
+                text-decoration: none;
+            }
+        }
+    }
     
 }

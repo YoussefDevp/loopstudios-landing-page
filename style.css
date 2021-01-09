@@ -106,4 +106,31 @@ header h1 {
   background: black;
   padding: 1rem 2rem;
 }
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: black;
+  color: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+footer .social-links li {
+  margin-right: 1rem;
+}
+
+footer .social-links li a {
+  color: white;
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
