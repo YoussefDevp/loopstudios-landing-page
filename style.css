@@ -4,8 +4,7 @@ body {
   font-family: 'Alata', sans-serif;
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   height: 100%;
   width: 100%;
 }
@@ -24,23 +23,16 @@ body {
 }
 
 header {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.424)), to(rgba(0, 0, 0, 0.424))), url("./images/desktop/image-hero.jpg") center center/cover;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.424), rgba(0, 0, 0, 0.424)), url("./images/desktop/image-hero.jpg") center center/cover;
   height: 75vh;
 }
 
 header nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 header nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -57,7 +49,6 @@ header nav ul li a {
 header nav ul li a:hover {
   padding-bottom: .4rem;
   border-bottom: solid 3px rgba(255, 255, 255, 0.808);
-  -webkit-transition: .2s ease-out;
   transition: .2s ease-out;
 }
 
@@ -73,54 +64,45 @@ header h1 {
 }
 
 .VR {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
+  height: 600px;
 }
 
 .VR .content {
-  position: relative;
-  top: 200px;
-  right: 150px;
-  background: white;
-  width: 500px;
-  height: 400px;
   padding: 4rem;
+  position: relative;
+  background: white;
+  width: 480px;
+  left: 572px;
+  bottom: 268px;
 }
 
-.VR p {
-  color: #8c8c8c;
+.VR .content p {
+  font-weight: 600;
+  line-height: 1.6;
+  color: rgba(140, 140, 140, 0.808);
 }
 
 .our-section .heading {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.our-section .heading a {
+.our-section a {
   color: white;
   background: black;
-  padding: 1rem 2rem;
+  padding: 0rem 1rem;
 }
 
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background: black;
   color: white;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 footer .social-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   list-style: none;
 }
@@ -133,4 +115,3 @@ footer .social-links li a {
   color: white;
   text-decoration: none;
 }
-/*# sourceMappingURL=style.css.map */

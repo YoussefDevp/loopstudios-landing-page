@@ -70,19 +70,24 @@ header {
 }
 
 .VR {
-    display: flex;
-    .content {
-        position: relative;
-        top: 200px;
-        right: 150px;
-        background:hsl(0, 0%, 100%) ;
-        width: 500px;
-        height: 400px;
+position: relative;  
+height: 600px;  
+.content {
         padding: 4rem;
-    } 
+        position: relative;
+        background:hsl(0, 0%, 100%) ;
+        width: 480px;
+        left: 572px;
+        bottom: 268px;
     p {
-        // font-weight:600;
-        color: hsl(0, 0%, 55%);
+        font-weight:600;
+        line-height: 1.6;
+        color: hsla(0, 0%, 55%, 0.808);
+
+        }
+    }
+    img {
+        // width: 600px;
     }
 }
 
@@ -90,15 +95,17 @@ header {
 
     
     .heading {
-        // height: 10px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        
+        }
+
         a {
             color:hsl(0, 0%, 100%);
             background: black;
-            padding: 1rem 2rem;
+            padding: 0rem 1rem;
 
-        }
         }
     .creations {
         // display: grid;
