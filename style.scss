@@ -103,15 +103,18 @@ height: 600px;
 
         a {
             color:hsl(0, 0%, 100%);
+            text-decoration: none;
             background: black;
-            padding: 0rem 1rem;
-
+            padding: .6rem 2.5rem;
+            letter-spacing: 4px;
         }
     .creations {
-        // display: grid;
-        // grid-gap: 10px;
-        // grid-auto-flow: column;
-        // // grid-template-columns: 186px 186px 186px 186px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        img {
+            margin:2rem 0;
+        }
     }
     
 }
@@ -124,13 +127,19 @@ footer {
     .social-links {
         display: flex;
         list-style: none;
+        justify-self: flex-start;
         li {
             margin-right:1rem ;
             a {
                 color:hsl(0, 0%, 100%);
                 text-decoration: none;
+                &:hover{
+                    padding-bottom: .4rem;
+                    border-bottom: solid 3px rgba(255, 255, 255, 0.808);
+                    transition: .2s ease-out;
+                    }
+                }
             }
         }
+        
     }
-    
-}

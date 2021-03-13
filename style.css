@@ -91,8 +91,20 @@ header h1 {
 
 .our-section a {
   color: white;
+  text-decoration: none;
   background: black;
-  padding: 0rem 1rem;
+  padding: .6rem 2.5rem;
+  letter-spacing: 4px;
+}
+
+.our-section .creations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.our-section .creations img {
+  margin: 2rem 0;
 }
 
 footer {
@@ -105,6 +117,7 @@ footer {
 footer .social-links {
   display: flex;
   list-style: none;
+  justify-self: flex-start;
 }
 
 footer .social-links li {
@@ -114,4 +127,10 @@ footer .social-links li {
 footer .social-links li a {
   color: white;
   text-decoration: none;
+}
+
+footer .social-links li a:hover {
+  padding-bottom: .4rem;
+  border-bottom: solid 3px rgba(255, 255, 255, 0.808);
+  transition: .2s ease-out;
 }
