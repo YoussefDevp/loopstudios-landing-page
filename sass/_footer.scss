@@ -1,0 +1,27 @@
+footer {
+    background: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+ .container {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .social-links {
+        display: flex;
+        list-style: none;
+        justify-self: flex-start;
+        li {
+            margin-right:1rem ;
+            a {
+                color:hsl(0, 0%, 100%);
+                text-decoration: none;
+                &:hover{
+                    padding-bottom: .4rem;
+                    border-bottom: solid 3px rgba(255, 255, 255, 0.808);
+                    transition: .2s ease-out;
+                    }
+                }
+            }
+        }   
+    }
+}

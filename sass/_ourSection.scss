@@ -1,0 +1,25 @@
+.our-section { 
+    .heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        }
+
+        a {
+            color:hsl(0, 0%, 100%);
+            text-decoration: none;
+            background: black;
+            padding: .6rem 2.5rem;
+            letter-spacing: 4px;
+        }
+    .creations {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        img {
+            margin:2rem 0;
+        }
+    }
+    
+}

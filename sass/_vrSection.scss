@@ -1,0 +1,21 @@
+.VR {
+    padding: 2rem 0;
+    height: 100vh;  
+    .content {
+            padding: 4rem;
+            position: relative;
+            background:hsl(0, 0%, 100%) ;
+            width: 480px;
+            left: 572px;
+            bottom: 300px;
+        p {
+            font-weight:600;
+            line-height: 1.6;
+            color: hsla(0, 0%, 55%, 0.808);
+    
+            }
+        }
+        img {
+            // width: 600px;
+        }
+    }

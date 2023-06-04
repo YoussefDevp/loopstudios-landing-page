@@ -1,0 +1,38 @@
+header {
+    background:linear-gradient(180deg,rgba(0, 0, 0, 0.424),  rgba(0, 0, 0, 0.424)), url('../images/desktop/image-hero.jpg') center center/cover ;
+    height: 75vh;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+
+        ul {
+            display: flex;
+            li {
+                margin-left: 2rem;
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color:hsla(0, 0%, 100%, 0.808);
+                }
+                a:hover {
+                    padding-bottom:.4rem ;
+                    border-bottom:solid 3px hsla(0, 0%, 100%, 0.808);
+                    transition: .2s ease-out;
+                }
+
+            }
+        }
+    }
+    h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 5rem;
+        text-transform: uppercase;
+        font-weight: 300;
+        width: 620px;
+        color: hsla(0, 0%, 100%, 0.918);
+        border:solid 2.5px;
+        padding: 2rem;
+
+    }
+}
