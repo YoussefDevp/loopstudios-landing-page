@@ -14,12 +14,22 @@
             letter-spacing: 4px;
         }
     .creations {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+        gap: 50px;
+        margin: 4rem 0;
+       
+       div {
+        position: relative;
         img {
-            margin:2rem 0;
+           height: 100%;
         }
+        p {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+       }
     }
     
 }

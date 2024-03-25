@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +9,6 @@
 
 body {
     font-family: 'Alata', sans-serif;
-    height: 100%;
-    width: 100%;
 }
 
 .container {
@@ -24,3 +25,4 @@ body {
     letter-spacing: 1.8px;
     color: rgb(0, 0, 0);
 }
+
