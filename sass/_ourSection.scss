@@ -14,15 +14,22 @@
             letter-spacing: 4px;
         }
     .creations {
-        display: grid;
-        grid-template-columns: repeat(4 , 1fr);
-        gap: 50px;
-        margin: 4rem 0;
+        display: flex;
+        width: 100%;
+       flex-direction: row;
+       flex-wrap: wrap;
+        gap: 10px;
+        margin: 4rem auto;
+        // background: red;
+        // justify-content: space-evenly;
        
        div {
-        position: relative;
+        background: black;
+        
+            width: calc(25% - 10px);
         img {
            height: 100%;
+           max-width: 100%;
         }
         p {
             position: absolute;
@@ -33,3 +40,26 @@
     }
     
 }
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #333;
+    }
+  
+    &:focus {
+      outline: none;
+    }
+  }
