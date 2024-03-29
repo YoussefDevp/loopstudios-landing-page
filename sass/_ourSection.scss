@@ -28,14 +28,16 @@
             &:after {
             position: absolute;
             content: "";
+            top: 0;
+            right: 0;
             height: 100%;
             width: 100%;
-            z-index: 999;
-            background: rgb(2,0,36);
+            z-index: 1;
+            background: rgba(2, 0, 60, 0.205);
         }
             img {
                 height: 100%;
-                max-width: 100%;
+                max-width: 100%
             }
 
             p    {
@@ -45,7 +47,14 @@
             color: #fff;
             font-size: 200%;
             font-weight: 300;
-            font-family:'Josefin Sans', sans-serif;       
+            font-family:'Josefin Sans', sans-serif; 
+            z-index: 2;      
+            }
+
+            &:hover {
+                p {
+                    color: #000;
+                }
             }
        }
     }
